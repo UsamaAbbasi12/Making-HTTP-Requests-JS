@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Making HTTP Requests</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: center;
+        background-color: crimson;
+        color: white;
+        padding: 30px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 90vh;
+        background-color: lightblue;
+      }
+      h3 {
+        font-size: 60px;
+        margin: 20px;
+        text-decoration: underline;
+        background: yellow;
+        cursor: pointer;
+        padding: 30px;
+        border-radius: 8px;
+        color: crimson;
+        transition: 0.5s;
+      }
+      h3:hover {
+        transform: scale(1.2);
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Making Http Requests in JavaScript</h1>
+    <div class="container">
+      <div>
+        <h3>XMLHttpRequest</h3>
+      </div>
+      <div>
+        <h3>Fetch API</h3>
+      </div>
+      <div>
+        <h3>Axios Library</h3>
+      </div>
+    </div>
+    <script src="./XMLHttpRequest.js"></script>
+    <script src="./fetch.js"></script>
+    <script src="./Axios.js"></script>
+  </body>
+</html>
